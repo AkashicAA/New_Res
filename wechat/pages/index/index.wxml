@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view style="margin-top:20px;">
+
+<view style="text-align:center;">
+<p style="font-size:18px;">笨蛋车控制系统</p>
+
+  <view style="margin-top:30px;">  <p>设备状态：{{device_status}}</p> </view>
+  <view style="margin-top:30px;">  <p>运动状态：{{powerstatus}}</p> </view>
+    <view style="margin-top:30px;">
+
+  <view style="margin-top:30px;"> <button bindtap="forwardclick" >前进</button>   </view>
+  <view style="margin-top:30px;"> <button bindtap="backclick" >后退</button>   </view>
+  <view style="margin-top:30px;"> <button bindtap="leftclick" >左行</button>   </view>
+  <view style="margin-top:30px;"> <button bindtap="rightclick" >右行</button>   </view>
+  <view style="margin-top:30px;"> <button bindtap="stopclick" >刹车</button>   </view>     
+  <view style="margin-top:30px;"> <button bindtap="left_loopclick" >左转</button>   </view>
+  <view style="margin-top:30px;"> <button bindtap="right_loopclick" >右转</button>   </view>
+    
+    </view>
+</view>
+</view>
